@@ -37,6 +37,18 @@ $(function () {
         $(this).next('.a').toggleClass('on');
 
     });
+
+    $('#btnMobile').on('click',function(){
+        $('.nav').addClass('on');
+        $('#wrap').addClass('on');
+    });
+
+    $('#mClosed').on('click',function(){
+        $('.nav').removeClass('on');
+        $('#wrap').removeClass('on');
+    });
+
+    
 });
 
 
