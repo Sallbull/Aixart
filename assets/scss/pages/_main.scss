@@ -16,6 +16,9 @@
     position: sticky;
     top:0;    
     z-index: 100;
+    &.sticky {
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1);
+    }
     .inner {
         display: flex;
         align-items: center;
@@ -620,16 +623,26 @@
                     color:#323232;
                     display: block;
                     position: relative;
-                }
-                &.on a {
                     &::after {
                         content: '';
-                        width: 100%;
+                        width: 0%;
                         height: 3px;;
                         background-color: #2785d6;
                         position: absolute;
-                        left: 0;
-                        bottom:0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        top:55px;
+                        transition:all .5s;
+                    }
+                    &:hover {
+                        &::after {
+                            width: 150%;                            
+                        }
+                    }
+                }
+                &.on a {
+                    &::after {
+                        width: 150%;                        
                     }
                 }
             }            
