@@ -59,6 +59,8 @@ $(function () {
     $('.qna_list .q').on('click',function(){
         $(this).toggleClass('on');
         $(this).next('.a').toggleClass('on');
+        $(this).parent('li').siblings('li').find('.q').removeClass('on');
+        $(this).parent('li').siblings('li').find('.a').removeClass('on');
 
     });
 

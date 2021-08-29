@@ -124,11 +124,11 @@
         &::before {
             content: '';
             display: block;
-            width: vw(3.5);
-            height: 100%;
+            width: vw(3);
+            height: vw(30);
             position: absolute;
             left:0;
-            top:0;
+            top:vw(2);
         }
     }
     &.__01 {
@@ -274,13 +274,15 @@
                 overflow: hidden;                
                 background: url(../img/bg_01.png) repeat 0 0 / cover;                
                 span {
+                    display: inline-flex;
+                    align-items: center;
                     color:#fff;
-                    font-size: vw(38);
                     letter-spacing: vw(-1);
-                    padding-right: vw(78);
+                    padding-right: vw(125);
+                    height: vw(110);
                     background: url(../img/ico_download.png) no-repeat 100% 50% / vw(26);
                     b {
-                        font-size: vw(40);
+                        font-size: vw(34);
                         font-weight: 700;
                         letter-spacing: vw(0.6);
                         position: relative;
@@ -428,10 +430,13 @@
             justify-content: center;
             margin-bottom: vw(30);
             li {
-                width: vw(304);
+                width: 49%;
                 text-align: center;
                 &:nth-child(1) {
-                    margin-right: vw(15);
+                    margin-right: auto;
+                }
+                &:nth-child(2) {
+                    margin-left: auto;
                 }
                 &:nth-child(3) {
                     margin-top: vw(20);
@@ -530,6 +535,7 @@
         }
         h2::before {
             background-color: #2785d6;
+            top:0;
         }
 
         .qna_list {
@@ -767,7 +773,8 @@
             padding-left: 14px;
             &::before {
                 width: 3px;
-                top:0;
+                height: 30px;
+                top:2px;
             }
         }
         &.__01 {
@@ -876,10 +883,10 @@
                     margin:0 15px;            
                     background: url(../img/bg_01.png) repeat 0 0 / cover;
                     span {
+                        display: inline-flex;
                         color:#fff;
-                        font-size: 22px;
-                        letter-spacing: -1px;
-                        padding-right: 39px;
+                        height: 103px;
+                        padding-right: 45px;
                         background: url(../img/ico_download.png) no-repeat 100% 50% / 16px;
                         b {
                             font-size: 24px;
@@ -995,6 +1002,9 @@
                     margin-right: 30px;
                     &:nth-child(1) {
                         margin-right: 30px;
+                    }
+                    &:nth-child(2) {
+                        margin-left: 0;
                     }
                     &:nth-child(3) {
                         margin-top: 0;

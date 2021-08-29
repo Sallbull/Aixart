@@ -2187,11 +2187,11 @@ button.swiper-pagination-bullet {
 .cont h2::before {
   content: '';
   display: block;
-  width: 0.48611vw;
-  height: 100%;
+  width: 0.41667vw;
+  height: 4.16667vw;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 0.27778vw;
 }
 
 .cont.__01 .t1 {
@@ -2365,15 +2365,21 @@ button.swiper-pagination-bullet {
 }
 
 .cont.__02 .btn_wrap .btn span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
-  font-size: 5.27778vw;
   letter-spacing: -0.13889vw;
-  padding-right: 10.83333vw;
+  padding-right: 17.36111vw;
+  height: 15.27778vw;
   background: url(../img/ico_download.png) no-repeat 100% 50%/3.61111vw;
 }
 
 .cont.__02 .btn_wrap .btn span b {
-  font-size: 5.55556vw;
+  font-size: 4.72222vw;
   font-weight: 700;
   letter-spacing: 0.08333vw;
   position: relative;
@@ -2549,12 +2555,16 @@ button.swiper-pagination-bullet {
 }
 
 .cont.__05 .awards li {
-  width: 42.22222vw;
+  width: 49%;
   text-align: center;
 }
 
 .cont.__05 .awards li:nth-child(1) {
-  margin-right: 2.08333vw;
+  margin-right: auto;
+}
+
+.cont.__05 .awards li:nth-child(2) {
+  margin-left: auto;
 }
 
 .cont.__05 .awards li:nth-child(3) {
@@ -2662,6 +2672,7 @@ button.swiper-pagination-bullet {
 
 .cont.__07 h2::before {
   background-color: #2785d6;
+  top: 0;
 }
 
 .cont.__07 .qna_list {
@@ -2928,7 +2939,8 @@ button.swiper-pagination-bullet {
   }
   .cont h2::before {
     width: 3px;
-    top: 0;
+    height: 30px;
+    top: 2px;
   }
   .cont.__01 .t1 {
     font-size: 30px;
@@ -3044,10 +3056,12 @@ button.swiper-pagination-bullet {
     background: url(../img/bg_01.png) repeat 0 0/cover;
   }
   .cont.__02 .btn_wrap .btn span {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     color: #fff;
-    font-size: 22px;
-    letter-spacing: -1px;
-    padding-right: 39px;
+    height: 103px;
+    padding-right: 45px;
     background: url(../img/ico_download.png) no-repeat 100% 50%/16px;
   }
   .cont.__02 .btn_wrap .btn span b {
@@ -3162,6 +3176,9 @@ button.swiper-pagination-bullet {
   }
   .cont.__05 .awards li:nth-child(1) {
     margin-right: 30px;
+  }
+  .cont.__05 .awards li:nth-child(2) {
+    margin-left: 0;
   }
   .cont.__05 .awards li:nth-child(3) {
     margin-top: 0;
