@@ -41,10 +41,10 @@ $(function () {
             slidesPerView: 1,
             spaceBetween: 0,
             loop: true,
-            // autoplay: {
-            //     delay: 5000,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
             // navigation: {
             //     nextEl: '.__top .swiper-button-next',
             //     prevEl: '.__top .swiper-button-prev',
