@@ -35,7 +35,7 @@
     ._menu {
         width: vw(58);
         height: vw(39);
-        background: url(../img/btn_m.png) no-repeat 0 0 / cover;
+        background: url(../img/btn_m.svg) no-repeat 0 0 / cover;
     }
     .nav {
         position: fixed;
@@ -833,7 +833,7 @@
                     }
                     &.point {
                         font-size: 18px;
-                        letter-spacing: -0.7px;
+                        letter-spacing: -0.5px;
                         padding-left: 20px;
                         &::before {
                             transform: translateY(1px);
@@ -843,7 +843,7 @@
                 > li {
                     padding-left: 15px;
                     font-size: 22px;
-                    margin-bottom: 10px;
+                    margin-bottom: 5px;
                     &::before {
                         top:-0.2px;
                     }

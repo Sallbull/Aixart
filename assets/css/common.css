@@ -2062,7 +2062,7 @@ button.swiper-pagination-bullet {
 .header ._menu {
   width: 8.05556vw;
   height: 5.41667vw;
-  background: url(../img/btn_m.png) no-repeat 0 0/cover;
+  background: url(../img/btn_m.svg) no-repeat 0 0/cover;
 }
 
 .header .nav {
@@ -2997,7 +2997,7 @@ button.swiper-pagination-bullet {
   }
   .cont.__02 .list li.point {
     font-size: 18px;
-    letter-spacing: -0.7px;
+    letter-spacing: -0.5px;
     padding-left: 20px;
   }
   .cont.__02 .list li.point::before {
@@ -3007,7 +3007,7 @@ button.swiper-pagination-bullet {
   .cont.__02 .list > li {
     padding-left: 15px;
     font-size: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .cont.__02 .list > li::before {
     top: -0.2px;
