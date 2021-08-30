@@ -143,7 +143,8 @@
             width: vw(500);
         }
         .top {
-            margin-top: vw(328);
+            width: 45vw;
+            margin: vw(328) 0 0;
             p {
                 color:#fff;
                 position: relative;
@@ -193,6 +194,9 @@
             color:#fff;
             font-weight: 700;
             margin-bottom: vw(10);
+        }
+        a {
+            color:#2785d6;
         }
         .list {
             letter-spacing: vw(-1.2);
@@ -786,6 +790,7 @@
                 width: 567px;
             }
             .top {
+                width: 270px;
                 margin-top: 90px;
                 p {
                     color:#fff;

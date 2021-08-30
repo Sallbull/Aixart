@@ -2207,7 +2207,8 @@ button.swiper-pagination-bullet {
 }
 
 .cont.__01 .top {
-  margin-top: 45.55556vw;
+  width: 45vw;
+  margin: 45.55556vw 0 0;
 }
 
 .cont.__01 .top p {
@@ -2266,6 +2267,10 @@ button.swiper-pagination-bullet {
   color: #fff;
   font-weight: 700;
   margin-bottom: 1.38889vw;
+}
+
+.cont.__02 a {
+  color: #2785d6;
 }
 
 .cont.__02 .list {
@@ -2950,6 +2955,7 @@ button.swiper-pagination-bullet {
     width: 567px;
   }
   .cont.__01 .top {
+    width: 270px;
     margin-top: 90px;
   }
   .cont.__01 .top p {
