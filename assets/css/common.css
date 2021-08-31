@@ -2052,11 +2052,11 @@ button.swiper-pagination-bullet {
           justify-content: space-between;
   width: 100%;
   height: 12.5vw;
-  padding: 0 5.55556vw 0 2.22222vw;
+  padding: 0 5.55556vw;
 }
 
 .header .logo img {
-  width: 38.61111vw;
+  width: 31.66667vw;
 }
 
 .header ._menu {
