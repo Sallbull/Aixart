@@ -73,7 +73,14 @@ $(function () {
         $('.nav').removeClass('on');
         $('#wrap').removeClass('on');
     });
-
+    $('.btn_pop').on('click',function(){
+        $('.popup_layer').show();
+        $('.bg_dimmed').addClass('on');
+    });
+    $('.btn_closed').on('click',function(){
+        $('.popup_layer').hide();
+        $('.bg_dimmed').removeClass('on');
+    });
     
 });
 
