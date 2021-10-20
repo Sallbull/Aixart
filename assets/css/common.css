@@ -2490,6 +2490,12 @@ button.swiper-pagination-bullet {
   font-weight: 700;
 }
 
+.cont.__03 p.tit span a {
+  text-decoration: none;
+  color: #8afff0;
+  font-weight: 700;
+}
+
 .cont.__03 .list {
   border-top: 0.48611vw solid #fff;
   border-bottom: 0.48611vw solid #fff;
