@@ -745,6 +745,27 @@
         }
     }
 }
+.pop_layer {
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    width: 90%;
+    img {
+        width: 100%;
+    }
+    .closed {
+        position: absolute;
+        left: 40%;
+        bottom: 7%;
+        width: 20%;
+        height: 7%;
+        background-color: transparent;
+        border: 0 solid #000;
+        cursor: pointer;
+    }
+}
 @include desktop {
     .header {        
         .inner {
@@ -1254,6 +1275,15 @@
                 width: 200px;
                 transform: translateX(-1vw);
             }
+        }
+    }
+    .pop_layer {
+        width: 490px;        
+        .closed {
+            left: 195px;
+            bottom: 34px;
+            width: 99px;
+            height: 35px;
         }
     }
 }

@@ -81,10 +81,12 @@ $(function () {
         $('.popup_layer').hide();
         $('.bg_dimmed').removeClass('on');
     });
-    
+    $('.pop_layer .closed').on('click', function(){
+        $('.pop_layer').hide();
+        $('.bg_dimmed').removeClass('on');
+    });
+
 });
-
-
 function chkBrowserSize() {
     $winW = $(window).width();
     $winH = $(window).height();
@@ -95,5 +97,3 @@ function chkBrowserSize() {
         $isMobile = false;
     }
 }    
-
-
